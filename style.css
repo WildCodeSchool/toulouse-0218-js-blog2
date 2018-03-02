@@ -2,3 +2,16 @@ h2 {
     front-size: 4vw;
 
 }
+
+.Lieu > figure{
+    border: solid;
+    border-width: 1px;
+    border-color : grey;
+    box-shadow: 7px 5px 3px grey;
+    padding: 5%;
+}
+
+.Lieu > figure > figcaption{
+ text-align: center;
+ padding: 5%;
+}
