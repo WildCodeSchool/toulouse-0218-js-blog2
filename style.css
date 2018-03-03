@@ -12,13 +12,22 @@
 
 p {
     margin-bottom: 2vw;
+}
 
+.herbergement{
+    position: relative;
 }
 
 .herbergement > figure{
+    margin-top: 6.3em;
     border: solid 1px grey;
     box-shadow: 7px 5px 3px grey;
     padding: 5%;
+}
+
+.epingle{
+    position: absolute;
+    width: 25%;
 }
 
 .Lieu > figure{
