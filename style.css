@@ -4,6 +4,7 @@
     margin-bottom: 1vw;
 }
 
+<<<<<<< HEAD
 .h3 {
     font-size: 3vw;
     text-align: center;
@@ -11,4 +12,19 @@
 
 p {
     margin-bottom: 2vw;
+=======
+}
+
+.Lieu > figure{
+    border: solid;
+    border-width: 1px;
+    border-color : grey;
+    box-shadow: 7px 5px 3px grey;
+    padding: 5%;
+}
+
+.Lieu > figure > figcaption{
+ text-align: center;
+ padding: 5%;
+>>>>>>> 475896f07a868158695710736e3e59de82369a3c
 }
