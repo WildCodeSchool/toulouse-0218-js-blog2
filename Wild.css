@@ -1,0 +1,37 @@
+/*media queries opacité + longueur texte,
+insérer police,
+git,
+*/
+
+.post {
+    height:450px;
+    background-size: cover; 
+    background-position: center;
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 40px;
+}
+
+.texte {
+    background-color: rgba(255,255,255,0.6);
+    width: 100%;
+    height: 440px;
+    padding: 20px;
+}
+
+
+a:link {
+    color: #FF6600;
+    text-decoration: none;
+}
+
+.p1 {
+    background-image: url(https://zupimages.net/up/18/09/0f6g.jpg);
+}
+.p2 {
+    background-image: url(https://zupimages.net/up/18/09/e04l.jpg);
+}
+
+.p3 {
+    background-image: url(https://zupimages.net/up/18/09/pwf9.jpg);
+}
