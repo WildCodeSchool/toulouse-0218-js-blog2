@@ -1,4 +1,4 @@
-
+/*page d'accueil - start*/
 .post {
     height:450px;
     min-width: 285px;
@@ -33,6 +33,25 @@ a:link {
 .p3 {
     background-image: url(https://zupimages.net/up/18/09/pwf9.jpg);
 }
+/*page d'accueil - end*/
+
+/*contact - start*/
+.description {
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.quote {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+}
+
+.gif {
+    text-align: center;
+}
+
+/*contact - end*/
 
 /*Media queries*/
 @media screen and (max-width: 850px) { 

@@ -29,6 +29,7 @@ p {
 
 .herbergement{
     position: relative;
+    z-index: 10;
 }
 
 .herbergement > figure{
@@ -46,7 +47,6 @@ p {
     position: absolute;
     top: -15%;
     z-index: 2;
-
 }
 
 .Lieu > figure{
