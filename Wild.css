@@ -42,7 +42,9 @@ a:link {
     margin-bottom: 50px;
 }
 .quote {
-    text-align: center
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
 }
 
 .gif {
