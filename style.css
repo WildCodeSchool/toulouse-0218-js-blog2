@@ -12,10 +12,12 @@
 
 p {
     margin-bottom: 2vw;
+    text-align: justify;
 }
 
 .herbergement{
     position: relative;
+    z-index: 10;
 }
 
 .herbergement > figure{
@@ -27,7 +29,9 @@ p {
 
 .epingle{
     position: absolute;
-    width: 25%;
+    width: 40%;
+    z-index: 9;
+
 }
 
 .Lieu > figure{
