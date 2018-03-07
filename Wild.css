@@ -1,9 +1,3 @@
-/*media queries opacité + longueur texte,
-insérer police,
-git,
-*/
-
-
 
 .post {
     height:450px;
@@ -41,7 +35,7 @@ a:link {
 }
 
 /*Media queries*/
-@media (max-width: 850px) { 
+@media screen and (max-width: 850px) { 
     .option {
         display: none
     }
