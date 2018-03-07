@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'sf_burlington_scriptregular';
+    src: url('sfburlingtonscript/SF_Burlington_Script-webfont.eot');
+    src: url('sfburlingtonscript/SF_Burlington_Script-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sfburlingtonscript/SF_Burlington_Script-webfont.woff2') format('woff2'),
+         url('sfburlingtonscript/SF_Burlington_Script-webfont.woff') format('woff'),
+         url('sfburlingtonscript/SF_Burlington_Script-webfont.ttf') format('truetype'),
+         url('sfburlingtonscript/SF_Burlington_Script-webfont.svg#sf_burlington_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .h2 {
     font-size: 4vw;
     text-align: center;
@@ -12,6 +24,7 @@
 
 p {
     margin-bottom: 2vw;
+    text-align: justify;
 }
 
 .herbergement{
@@ -25,9 +38,15 @@ p {
     padding: 5%;
 }
 
-.epingle{
+.Lieu2 {
+    margin-top: 6%;
+}
+
+.Lieu > .pince {
     position: absolute;
-    width: 25%;
+    top: -15%;
+    z-index: 2;
+
 }
 
 .Lieu > figure{
@@ -35,10 +54,18 @@ p {
     border-width: 1px;
     border-color : grey;
     box-shadow: 7px 5px 3px grey;
+    background-image: linear-gradient(to top, white, #D8D9D9);
     padding: 5%;
+    position: relative;
+    top: 10px;
+    z-index: 1;
 }
 
 .Lieu > figure > figcaption{
- text-align: center;
- padding: 5%;
+    font-family: "sf_burlington_scriptregular";
+    font-size: 3vw;
+    text-align: center;
+    padding: 2%;
 }
+
+
