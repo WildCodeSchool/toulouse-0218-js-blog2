@@ -1,4 +1,156 @@
+/*Mise en page header*/
+
+h1, .menu{
+    text-align:center;
+}
+.title{
+    min-width:200px;
+    font-size:calc(25px + 3vw);    
+}
+.logo{
+    position:absolute;
+    top:calc(-30px - 4vw);
+    left:calc(50% - calc(33px + 4.5vw));
+    width:calc(60px + 8vw);
+}
+.spacerDown{
+    margin-bottom:0;
+}
+.spacerUp{
+    margin-top:calc(30px + 3vw);
+}
+.menu h3{
+    font-size:2vw;
+    margin:auto;
+}
+.menu ul{
+    position:absolute;
+    left:0;
+    width:100%;
+    background-color:#ffffff;
+    color:#000000;
+    margin-top:5px;
+    border:1px solid #000000;
+    padding:5px 0;
+    z-index:10;
+}
+.menu li{
+    list-style:none;
+}
+.menu a{
+    display:flex;
+    text-decoration:none;
+}
+.menu a:hover{
+    text-decoration:none;
+}
+.menu h5{
+    font-size:1.5vw;
+    margin:auto;
+    padding:5px 0;
+}
+.afrique .afriqueListe{
+    visibility:hidden;
+    transition:visibility 0s linear 50ms;
+}
+.afrique:hover .afriqueListe{
+    visibility:visible;
+}
+.amérique .amériqueListe{
+    visibility:hidden;
+    transition:visibility 0s linear 50ms;
+}
+.amérique:hover .amériqueListe{
+    visibility:visible;
+}
+.asie .asieListe{
+    visibility:hidden;
+    transition:visibility 0s linear 50ms;
+}
+.asie:hover .asieListe{
+    visibility:visible;
+}
+.europe .europeListe{
+    visibility:hidden;
+    transition:visibility 0s linear 50ms;
+}
+.europe:hover .europeListe{
+    visibility:visible;
+}
+.océanie .océanieListe{
+    visibility:hidden;
+    transition:visibility 0s linear 50ms;
+}
+.océanie:hover .océanieListe{
+    visibility:visible;
+}
+#clickMe{
+    position:fixed;
+    left:-10vw;
+}
+.menuBurger{
+    position:fixed;
+    top:0;
+    left:10vw;
+    width:30vw;
+    height:100vh;
+    visibility:hidden;
+    background-color:#444444;
+}
+#clickMe:checked + label > .menuBurger{
+    visibility:visible;
+}
+.burger{
+    position:absolute;
+    top:7px;
+    left:10px;
+    width:calc(20px + 2.66vw);
+    visibility:hidden;
+    padding:5px 5px;
+}
+.burger:hover{
+    background-color:#888888;
+}
+
+@media screen and (max-width:768px){
+    .banner{
+        display:none;
+    }
+    .burger{
+        visibility:visible;
+    }
+    .spacerDown{
+        margin-bottom:calc(30px + 3vw);
+    }
+}
+
+
 /*page d'accueil - start*/
+@font-face {
+    font-family: 'calligraffitiregular';
+    src: url('calligraffiti/Calligraffiti-webfont.eot');
+    src: url('calligraffiti/Calligraffiti-webfont.eot?#iefix') format('embedded-opentype'),
+         url('calligraffiti/Calligraffiti-webfont.woff2') format('woff2'),
+         url('calligraffiti/Calligraffiti-webfont.woff') format('woff'),
+         url('calligraffiti/Calligraffiti-webfont.ttf') format('truetype'),
+         url('calligraffiti/Calligraffiti-webfont.svg#calligraffitiregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'existencelight';
+    src: url('existence_light/Existence-Light-webfont.eot');
+    src: url('existence_light/Existence-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('existence_light/Existence-Light-webfont.woff2') format('woff2'),
+         url('existence_light/Existence-Light-webfont.woff') format('woff'),
+         url('existence_light/Existence-Light-webfont.ttf') format('truetype'),
+         url('existence_light/Existence-Light-webfont.svg#existencelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .post {
     height:450px;
     min-width: 285px;
@@ -18,9 +170,15 @@
 }
 
 
-a:link {
-    color: #FF6600;
-    text-decoration: none;
+
+
+h2{
+    font-family: "existencelight";
+    text-align: center;
+}
+
+p{
+    font-family: "existencelight";
 }
 
 .p1 {
@@ -34,6 +192,38 @@ a:link {
     background-image: url(https://zupimages.net/up/18/09/pwf9.jpg);
 }
 
+/*footer*/
+footer {
+    text-align: center;
+    height: 150px;
+    background-color: rgb(37, 37, 37);
+    padding: 5px;
+}
+
+footer ul {
+    list-style-type:none;
+    padding-top: 30px;
+}
+
+footer li {
+    display:inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+    color:white;
+}
+footer .imgbtn{
+    width:30px;
+}
+
+footer a:link{
+    text-decoration:none;
+    color:white;
+}
+
+footer a:visited{
+    text-decoration:none;
+    color:white;
+}
 /*page d'accueil - end*/
 
 /*contact - start*/
@@ -42,9 +232,10 @@ a:link {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.quote {
+
+.citation > p {
     text-align: center;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'calligraffitiregular', cursive;
     font-size: 2em;
 }
 
