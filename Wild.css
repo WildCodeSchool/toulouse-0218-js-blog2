@@ -39,7 +39,6 @@ h1, .menu{
 .menu a{
     display:flex;
     text-decoration:none;
-    color:#000000;
 }
 .menu a:hover{
     text-decoration:none;
