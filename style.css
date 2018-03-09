@@ -56,13 +56,13 @@ p {
 
 .Hebergement {
     margin-top: 10%;
-    height : 510px;
+    height : 620px;
 
 }
 
 .Hebergement2 > .pince {
     position: absolute;
-    top: -16%;
+    top: -14.35%;
     z-index: 5;
 }
 
