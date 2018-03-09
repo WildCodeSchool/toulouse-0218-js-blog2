@@ -81,8 +81,7 @@ h1, .menu{
     visibility:visible;
 }
 #clickMe{
-    width:10px;
-    height:10px;
+    display:none;
 }
 .menuBurger{
     position:fixed;
@@ -90,9 +89,8 @@ h1, .menu{
     left:10vw;
     width:30vw;
     height:100vh;
-    visibility:visible;
+    visibility:hidden;
     background-color:#444444;
-    /*transition:transform 500ms linear;*/
 }
 #clickMe:checked + label > .menuBurger{
     visibility:visible;
