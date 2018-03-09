@@ -13,7 +13,10 @@ h1, .menu{
     left:calc(50% - calc(33px + 4.5vw));
     width:calc(60px + 8vw);
 }
-.spacer{
+.spacerDown{
+    margin-bottom:0;
+}
+.spacerUp{
     margin-top:calc(30px + 3vw);
 }
 .menu h3{
@@ -116,6 +119,9 @@ h1, .menu{
     .burger{
         visibility:visible;
     }
+    .spacerDown{
+        margin-bottom:calc(30px + 3vw);
+    }
 }
 
 
@@ -136,12 +142,6 @@ h1, .menu{
     height: 440px;
     padding: 20px;
     text-align: justify
-}
-
-
-a:link {
-    color: #FF6600;
-    text-decoration: none;
 }
 
 .p1 {
