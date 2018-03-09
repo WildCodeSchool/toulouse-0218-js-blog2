@@ -33,6 +33,7 @@ a:link {
 .p3 {
     background-image: url(https://zupimages.net/up/18/09/pwf9.jpg);
 }
+
 /*page d'accueil - end*/
 
 /*contact - start*/
@@ -52,6 +53,20 @@ a:link {
 }
 
 /*contact - end*/
+.scrollUp {
+    position: fixed;
+    bottom : 20px;
+    right: 40px;
+    opacity: 0.4;
+    z-index: 20;
+}
+    
+.scrollUp:hover{
+    opacity : 1;
+}
+/*commun - start*/
+
+/*commun - end */
 
 /*Media queries*/
 @media screen and (max-width: 850px) { 
