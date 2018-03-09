@@ -1,20 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"">
     <title>Wild Eyes</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
-    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="Wild.css">
   </head>
   
   <body>
-    <header>
-      <!--header-->
+
+    <header class="container">
+
+      <div class="row">
+
+        <div class="col">
+          <h1 class="title">WILD EYES</h1>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col">
+         <img class="logo" src="Logo.png" alt="logo"/>
+        </div>
+
+      </div>
+
+      <div class="banner">
+
+        <hr class="spacer"/>
+
+        <div class="row">        
+
+          <div class="col-2 offset-1 menu afrique">
+            <h3>AFRIQUE</h3>
+            <ul class="afriqueListe">
+              <li><a href="#"><h5>Mali</h5></a></li>
+              <li><a href="#"><h5>Kenya</h5></a></li>
+              <li><a href="#"><h5>Maroc</h5></a></li>
+              <li><a href="#"><h5>Égypte</h5></a></li>
+            </ul>
+          </div>
+
+          <div class="col-2 menu amérique">
+            <h3>AMERIQUE</h3>
+            <ul class="amériqueListe">
+              <li><a href="#"><h5>Pérou</h5></a></li>
+              <li><a href="#"><h5>Bolivie</h5></a></li>
+              <li><a href="#"><h5>États-Unis</h5></a></li>
+              <li><a href="#"><h5>Canada</h5></a></li>
+            </ul>
+          </div>
+
+          <div class="col-2 menu asie">
+            <h3>ASIE</h3>
+            <ul class="asieListe">
+              <li><a href="#"><h5>Cambodge</h5></a></li>
+              <li><a href="#"><h5>Vietnam</h5></a></li>
+              <li><a href="#"><h5>Chine</h5></a></li>
+              <li><a href="#"><h5>Japon</h5></a></li>
+            </ul>
+          </div>
+
+          <div class="col-2 menu europe">
+            <h3>EUROPE</h3>
+            <ul class="europeListe">
+              <li><a href="#"><h5>République Tchèque</h5></a></li>
+              <li><a href="#"><h5>Croatie</h5></a></li>
+              <li><a href="#"><h5>France</h5></a></li>
+              <li><a href="#"><h5>Espagne</h5></a></li>
+            </ul>
+          </div>
+
+          <div class="col-2 menu océanie">
+            <h3>OCEANIE</h3>
+            <ul class="océanieListe">
+              <li><a href="#"><h5>Nouvelle-Zélande</h5></a></li>
+              <li><a href="#"><h5>Hawaï</h5></a></li>
+              <li><a href="#"><h5>Australie</h5></a></li>
+              <li><a href="#"><h5>Fidji</h5></a></li>
+            </ul>
+          </div>
+        
+        </div>
+
+        <hr/>
+
+      </div>
+
     </header>
+
+    <input type="checkbox" id="clickME"/>    
+    <label for="clickME">
+      <nav class="menuBurger">
+        <div class="container">        
+          <div class="row">
+            <div class="col-2">
+
+            </div>
+          </div>
+        </div>
+      </nav>
+      <img class="burger" src="https://marmelab.com/admin-on-rest/img/menu.svg" alt="burger"/>
+    </label>
+
     <div class="container-fluid">
       <div class="post p1">
         <div class="texte offset-1 col-10 offset-xs-1 col-xs-8 offset-sm-1 col-sm-7 offset-md-1 col-md-6 offset-xl-1 col-xl-4">
@@ -61,7 +154,11 @@
     <footer>
     <!--footer-->
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
   </body>
+
 </html>

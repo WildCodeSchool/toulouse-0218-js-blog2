@@ -1,3 +1,124 @@
+/*Mise en page header*/
+
+h1, .menu{
+    text-align:center;
+}
+.title{
+    min-width:200px;
+    font-size:calc(25px + 3vw);    
+}
+.logo{
+    position:absolute;
+    top:calc(-30px - 4vw);
+    left:calc(50% - calc(33px + 4.5vw));
+    width:calc(60px + 8vw);
+}
+.spacer{
+    margin-top:calc(30px + 3vw);
+}
+.menu h3{
+    font-size:2vw;
+    margin:auto;
+}
+.menu ul{
+    position:absolute;
+    left:0;
+    width:100%;
+    background-color:#ffffff;
+    margin-top:5px;
+    border:1px solid #000000;
+    padding:5px 0;
+}
+.menu li{
+    list-style:none;
+}
+.menu a{
+    display:flex;
+    text-decoration:none;
+    color:#000000;
+}
+.menu a:hover{
+    text-decoration:none;
+}
+.menu h5{
+    font-size:1.5vw;
+    margin:auto;
+    padding:5px 0;
+}
+.afrique .afriqueListe{
+    visibility:hidden;
+    transition:visibility 0s linear 50ms;
+}
+.afrique:hover .afriqueListe{
+    visibility:visible;
+}
+.amérique .amériqueListe{
+    visibility:hidden;
+    transition:visibility 0s linear 50ms;
+}
+.amérique:hover .amériqueListe{
+    visibility:visible;
+}
+.asie .asieListe{
+    visibility:hidden;
+    transition:visibility 0s linear 50ms;
+}
+.asie:hover .asieListe{
+    visibility:visible;
+}
+.europe .europeListe{
+    visibility:hidden;
+    transition:visibility 0s linear 50ms;
+}
+.europe:hover .europeListe{
+    visibility:visible;
+}
+.océanie .océanieListe{
+    visibility:hidden;
+    transition:visibility 0s linear 50ms;
+}
+.océanie:hover .océanieListe{
+    visibility:visible;
+}
+#clickMe{
+    width:10px;
+    height:10px;
+}
+.menuBurger{
+    position:fixed;
+    top:0;
+    left:10vw;
+    width:30vw;
+    height:100vh;
+    visibility:visible;
+    background-color:#444444;
+    /*transition:transform 500ms linear;*/
+}
+#clickMe:checked + label > .menuBurger{
+    visibility:visible;
+}
+.burger{
+    position:fixed;
+    top:7px;
+    left:10px;
+    width:calc(20px + 2.66vw);
+    visibility:hidden;
+    padding:5px 5px;
+}
+.burger:hover{
+    background-color:#888888;
+}
+
+@media screen and (max-width:768px){
+    .banner{
+        display:none;
+    }
+    .burger{
+        visibility:visible;
+    }
+}
+
+
 /*page d'accueil - start*/
 .post {
     height:450px;
