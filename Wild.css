@@ -28,6 +28,7 @@ h1, .menu{
     margin-top:5px;
     border:1px solid #000000;
     padding:5px 0;
+    z-index:10;
 }
 .menu li{
     list-style:none;
@@ -81,7 +82,8 @@ h1, .menu{
     visibility:visible;
 }
 #clickMe{
-    display:none;
+    position:fixed;
+    left:-10vw;
 }
 .menuBurger{
     position:fixed;
@@ -96,7 +98,7 @@ h1, .menu{
     visibility:visible;
 }
 .burger{
-    position:fixed;
+    position:absolute;
     top:7px;
     left:10px;
     width:calc(20px + 2.66vw);
