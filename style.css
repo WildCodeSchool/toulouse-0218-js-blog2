@@ -46,12 +46,23 @@
     position : relative;
 }
 
+h4 {
+    font-family: "existencelight"; 
+    font-size: 2vw;
+    font-weight: bold;
+}
+
 p {
     font-family: "existencelight";
     margin-top: 2vw;
     margin-bottom: 2vw;
     text-align: justify;
-    size: 1vw;
+    font-size: 1vw;
+}
+
+li {
+    font-family: "existencelight"; 
+    font-size: 1vw;
 }
 
 .Hebergement {
