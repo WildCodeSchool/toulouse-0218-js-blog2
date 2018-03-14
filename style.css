@@ -39,16 +39,16 @@
 
 .h3 {
     font-family: "existencelight";
-    font-size: 3vw;
+    font-size: 30px;
     border-bottom: solid;
     text-align: center;
-    margin : 30px;
-    position : relative;
+    margin-bottom : 2%;
+    margin-top : 2%;
 }
 
 h4 {
     font-family: "existencelight"; 
-    font-size: 2vw;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -57,17 +57,16 @@ p {
     margin-top: 2vw;
     margin-bottom: 2vw;
     text-align: justify;
-    font-size: 1vw;
+    font-size: 15px;
 }
 
 li {
     font-family: "existencelight"; 
-    font-size: 1vw;
+    font-size: 15px;
 }
 
 .Hebergement {
     margin-top: 10%;
-    height : 620px;
 
 }
 
@@ -91,7 +90,7 @@ li {
 
 .Hebergement2 > figure > figcaption{
     font-family: "calligraffitiregular";
-    font-size: 2vw;
+    font-size: 25px;
     text-align: center;
     padding: 2%;
 }
@@ -107,7 +106,7 @@ li {
 
 .Plat > figure > figcaption{
     font-family: "calligraffitiregular";
-    font-size: 2vw;
+    font-size: 25px;
     text-align: center;
     padding: 2%;
 }
@@ -145,8 +144,21 @@ li {
 
 .Lieu2 > figure > figcaption{
     font-family: "calligraffitiregular";
-    font-size: 2vw;
+    font-size: 25px;
     text-align: center;
     padding: 2%;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 4vw;
+  width: 4vw;
+  border-radius: 50%;
+  background-color: grey;
+  opacity: 0.2;
+}
+
+
+@media screen and (max-width:768px){
+    
+}
