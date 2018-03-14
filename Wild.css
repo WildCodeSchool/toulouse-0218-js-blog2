@@ -166,7 +166,8 @@ h1, .menu{
     width: 100%;
     height: 440px;
     padding: 20px;
-    text-align: justify
+    text-align: justify;
+    border-radius: 10px;
 }
 
 
@@ -207,8 +208,13 @@ footer li {
     margin-right: 30px;
     color:white;
 }
-footer .imgbtn{
+footer .imgbtn {
     width:30px;
+    filter: grayscale(1);
+}
+
+footer .imgbtn:hover {
+filter: grayscale(0);
 }
 
 footer a:link{
@@ -220,6 +226,7 @@ footer a:visited{
     text-decoration:none;
     color:white;
 }
+
 /*page d'accueil - end*/
 
 /*contact - start*/
