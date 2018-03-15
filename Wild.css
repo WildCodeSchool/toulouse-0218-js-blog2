@@ -18,7 +18,7 @@
 .logo{
     position:absolute;
     top:calc(calc(10px + 1vw) + calc(5px + 0.66vw));
-    left:calc(50% - calc(33px + 4.5vw));
+    left:calc(50% - calc(30px + 4vw));
     width:calc(60px + 8vw);
 }
 .spacerDown{
@@ -247,7 +247,34 @@
         margin-bottom:calc(30px + 3vw);
     }
     .titleBanner{
-        position:fixed;
+        position:fixed;<div class="row no-gutters">
+        <div class="mentions col-6 offset-xs-1 col-xs-5 offset-lg-1 col-lg-4 ">  
+          <ul class="mentionsLeft">
+            <li><a href="index.html" target="_blank">Home</a></li>
+            <li><a href="https://odyssey.wildcodeschool.fr/mentions-legales" target="_blank">Mentions légales</a></li>
+            <li><a href="https://fr.wikipedia.org/wiki/Copyright" target="_blank">Copyrights</a></li>
+          </ul>
+          <ul class="mentionsRight">
+            <li><a href="https://www.leetchi.com" target="_blank">Faites un don</a></li>
+            <li><a href="Contact.html" target="_blank">Contact</a></li>
+          </ul>
+        </div>
+        <div class="reseaux col-6 offset-lg-1 col-lg-5">
+          <p>Embarquez avec nous :</p>
+          <ul>
+            <li><a href="https://www.facebook.com/"target="_blank"><img class="imgbtn" src="logos/fb.png"></a></li>
+            <li><a href="https://www.instagram.com/"target="_blank"><img class="imgbtn" src="logos/insta.png"></a></li><br class="secret"/>
+            <li><a href="https://twitter.com/"target="_blank"><img class="imgbtn" src="logos/twitter.png"></a></li>
+            <li><a href="https://www.twitch.tv/khanaeleff"target="_blank"><img class="imgbtn" src="logos/twitch.png"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-12">
+          <p class="madeBy">Made with major power by The Wild Eyes Team</p>
+        </div>
+      </div>
+    </footer>
         top:0;
         left:0;
         height:calc(calc(10px + 1vw) + calc(calc(25px + 3vw) * 1.2) + calc(30px + 3vw));
