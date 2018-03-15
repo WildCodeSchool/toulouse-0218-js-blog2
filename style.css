@@ -228,29 +228,29 @@ li {
 @media screen and (max-width:1199px){
     .Hebergement2 .pince1{
         margin-left: 4vw;
-        top: -32.5%;
+        top: -32.3%;
        
     }
     
     .Hebergement2 .pince2{
         margin-left: 9vw;
-        top: -33.5%;
+        top: -33%;
     
     }
     
     .Hebergement2 .pince3{
         margin-left: 8vw;
-        top: -30%;
+        top: -29.3%;
     }
     
     .Hebergement2 .pince4{
         margin-left: 5vw;
-        top: -32%;
+        top: -31.3%;
     }
     
     .Hebergement2 .pince5{
         margin-left: 11vw;
-        top: -30%;
+        top: -29.5%;
     }
     
     .Hebergement2 .pince6{
@@ -265,7 +265,7 @@ li {
     
     .Lieu2 .pince2{
         margin-left: 9vw;
-        top: -29%;
+        top: -29.3%;
     }   
     
     .Lieu2 .pince3{
@@ -275,17 +275,82 @@ li {
     
     .Lieu2 .pince4{
         margin-left: 5vw;
-        top: -32%;
+        top: -31.7%;
     }
     
     .Lieu2 .pince5{
         margin-left: 8vw;
-        top: -33%;
+        top: -32.5%;
     }
     
     .Lieu2 .pince6{
         margin-left: 11vw;
         top: -27.5%;
+    }
+
+}
+
+@media screen and (max-width:991px){
+    .Hebergement2 .pince1{
+        margin-left: 4vw;
+        top: -30.5%;
+       
+    }
+    
+    .Hebergement2 .pince2{
+        margin-left: 9vw;
+        top: -26%;
+    
+    }
+    
+    .Hebergement2 .pince3{
+        margin-left: 8vw;
+        top: -28%;
+    }
+    
+    .Hebergement2 .pince4{
+        margin-left: 5vw;
+        top: -30%;
+    }
+    
+    .Hebergement2 .pince5{
+        margin-left: 11vw;
+        top: -28%;
+    }
+    
+    .Hebergement2 .pince6{
+        margin-left: 11vw;
+        top: -30.5%;
+    }
+
+    .Lieu2 .pince1{
+        margin-left: 4vw;
+        top: -25%;
+    }
+    
+    .Lieu2 .pince2{
+        margin-left: 9vw;
+        top: -27.8%;
+    }   
+    
+    .Lieu2 .pince3{
+        margin-left: 8vw;
+        top: -29.5%;
+    }
+    
+    .Lieu2 .pince4{
+        margin-left: 5vw;
+        top: -24.7%;
+    }
+    
+    .Lieu2 .pince5{
+        margin-left: 8vw;
+        top: -25.4%;
+    }
+    
+    .Lieu2 .pince6{
+        margin-left: 11vw;
+        top: -25%;
     }
 
 }
