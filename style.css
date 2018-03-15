@@ -39,16 +39,16 @@
 
 .h3 {
     font-family: "existencelight";
-    font-size: 3vw;
+    font-size: 30px;
     border-bottom: solid;
     text-align: center;
-    margin : 30px;
-    position : relative;
+    margin-bottom : 3vw;
+    margin-top : 3vw;
 }
 
 h4 {
     font-family: "existencelight"; 
-    font-size: 2vw;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -57,24 +57,57 @@ p {
     margin-top: 2vw;
     margin-bottom: 2vw;
     text-align: justify;
-    font-size: 1vw;
+    font-size: 15px;
 }
 
 li {
     font-family: "existencelight"; 
-    font-size: 1vw;
+    font-size: 15px;
 }
 
 .Hebergement {
-    margin-top: 10%;
-    height : 620px;
+    margin: 10% 1% 0 1%;
+    height: 560px;
 
 }
 
-.Hebergement2 > .pince {
+.Hebergement2 .pince {
     position: absolute;
-    top: -14.35%;
-    z-index: 5;
+    width: 40%;
+    display: inline-block;
+    
+}
+
+.Hebergement2 .pince1{
+    margin-left: 4vw;
+    top: -32.5%;
+   
+}
+
+.Hebergement2 .pince2{
+    margin-left: 9vw;
+    top: -33.5%;
+
+}
+
+.Hebergement2 .pince3{
+    margin-left: 8vw;
+    top: -30%;
+}
+
+.Hebergement2 .pince4{
+    margin-left: 5vw;
+    top: -32%;
+}
+
+.Hebergement2 .pince5{
+    margin-left: 11vw;
+    top: -30%;
+}
+
+.Hebergement2 .pince6{
+    margin-left: 11vw;
+    top: -32%;
 }
 
 .Hebergement2 > figure {
@@ -91,7 +124,7 @@ li {
 
 .Hebergement2 > figure > figcaption{
     font-family: "calligraffitiregular";
-    font-size: 2vw;
+    font-size: 25px;
     text-align: center;
     padding: 2%;
 }
@@ -107,7 +140,7 @@ li {
 
 .Plat > figure > figcaption{
     font-family: "calligraffitiregular";
-    font-size: 2vw;
+    font-size: 25px;
     text-align: center;
     padding: 2%;
 }
@@ -121,14 +154,43 @@ li {
 }
 
 .Lieu {
-    margin-top: 10%;
+    margin: 10% 1% 0 1%;
     height: 650px;
 }
 
-.Lieu2 > .pince {
+.Lieu2 .pince {
     position: absolute;
-    top: -14%;
-    z-index: 2;
+    width: 40%;
+    display: inline-block;
+}
+.Lieu2 .pince1{
+    margin-left: 4vw;
+    top: -32.5%;
+}
+
+.Lieu2 .pince2{
+    margin-left: 9vw;
+    top: -30.5%;
+}   
+
+.Lieu2 .pince3{
+    margin-left: 8vw;
+    top: -31.5%;
+}
+
+.Lieu2 .pince4{
+    margin-left: 5vw;
+    top: -32.5%;
+}
+
+.Lieu2 .pince5{
+    margin-left: 8vw;
+    top: -33.5%;
+}
+
+.Lieu2 .pince6{
+    margin-left: 11vw;
+    top: -32.5%;
 }
 
 .Lieu2 > figure{
@@ -145,8 +207,175 @@ li {
 
 .Lieu2 > figure > figcaption{
     font-family: "calligraffitiregular";
-    font-size: 2vw;
+    font-size: 25px;
     text-align: center;
     padding: 2%;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 4vw;
+  width: 4vw;
+  border-radius: 50%;
+  background-color: grey;
+  opacity: 0.2;
+}
+
+.ecran2 {
+    display: none;
+}
+
+@media screen and (max-width:1199px){
+    .Hebergement2 .pince1{
+        margin-left: 4vw;
+        top: -32.3%;
+       
+    }
+    
+    .Hebergement2 .pince2{
+        margin-left: 9vw;
+        top: -33%;
+    
+    }
+    
+    .Hebergement2 .pince3{
+        margin-left: 8vw;
+        top: -29.3%;
+    }
+    
+    .Hebergement2 .pince4{
+        margin-left: 5vw;
+        top: -31.3%;
+    }
+    
+    .Hebergement2 .pince5{
+        margin-left: 11vw;
+        top: -29.5%;
+    }
+    
+    .Hebergement2 .pince6{
+        margin-left: 11vw;
+        top: -32%;
+    }
+
+    .Lieu2 .pince1{
+        margin-left: 4vw;
+        top: -32%;
+    }
+    
+    .Lieu2 .pince2{
+        margin-left: 9vw;
+        top: -29.3%;
+    }   
+    
+    .Lieu2 .pince3{
+        margin-left: 8vw;
+        top: -31%;
+    }
+    
+    .Lieu2 .pince4{
+        margin-left: 5vw;
+        top: -31.7%;
+    }
+    
+    .Lieu2 .pince5{
+        margin-left: 8vw;
+        top: -32.5%;
+    }
+    
+    .Lieu2 .pince6{
+        margin-left: 11vw;
+        top: -27.5%;
+    }
+
+}
+
+@media screen and (max-width:991px){
+    .Hebergement2 .pince1{
+        margin-left: 4vw;
+        top: -30.5%;
+       
+    }
+    
+    .Hebergement2 .pince2{
+        margin-left: 9vw;
+        top: -26%;
+    
+    }
+    
+    .Hebergement2 .pince3{
+        margin-left: 8vw;
+        top: -28%;
+    }
+    
+    .Hebergement2 .pince4{
+        margin-left: 5vw;
+        top: -30%;
+    }
+    
+    .Hebergement2 .pince5{
+        margin-left: 11vw;
+        top: -28%;
+    }
+    
+    .Hebergement2 .pince6{
+        margin-left: 11vw;
+        top: -30.5%;
+    }
+
+    .Lieu2 .pince1{
+        margin-left: 4vw;
+        top: -25%;
+    }
+    
+    .Lieu2 .pince2{
+        margin-left: 9vw;
+        top: -27.8%;
+    }   
+    
+    .Lieu2 .pince3{
+        margin-left: 8vw;
+        top: -29.5%;
+    }
+    
+    .Lieu2 .pince4{
+        margin-left: 5vw;
+        top: -24.7%;
+    }
+    
+    .Lieu2 .pince5{
+        margin-left: 8vw;
+        top: -25.4%;
+    }
+    
+    .Lieu2 .pince6{
+        margin-left: 11vw;
+        top: -25%;
+    }
+
+}
+
+@media screen and (max-width:768px){
+    .ecran1{
+        display: none;
+    }
+    .ecran2{
+        display: contents;
+    }
+    .Hebergement{
+        width: 80%;
+        margin: auto;
+    }
+    .Plat figure{
+        width: 70%;
+        height: 93%;
+        margin: auto;
+    }
+    .Lieu{
+        width: 80%;
+        margin: auto;
+    }
+    .h3{
+        margin-top: 40px;
+    }
+}

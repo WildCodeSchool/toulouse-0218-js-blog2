@@ -8,12 +8,9 @@
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
                 integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
                 crossorigin="anonymous">
-                <link rel="stylesheet" href="style.css">
+                <link rel="stylesheet" href="style.css" type="text/css">
                 <link rel="stylesheet" href="Wild.css">
     </head>
-
-
-
     <body>
         <header class="container">
 
@@ -28,7 +25,7 @@
             <div class="row">
       
               <div class="col spacerDown">
-               <img class="logo" src="Logo.png" alt="logo"/>
+               <img class="logo" src="logos/Logo.png" alt="logo"/>
               </div>
       
             </div>
@@ -137,8 +134,7 @@
                        Pour les trajets courts, il existe les fameux tuk-tuk, un bon moyen de transports peu onéreux et qui permet de profiter pleinement du paysage<br/><br/>
                     </p>
                 <br/>
-                <h4>Evènement à ne pas rater</h4>
-                    <p>Il convient de maintenir un bon niveau de vigilance lors d’un séjour au Cambodge, en particulier au moment des fêtes nationales :</p>   
+                <h4>Les fêtes nationales</h4>  
                     <ul>
                         <li>Fête des morts (Pchum Ben) du 15 au 30 septembre ;</li>
                         <li>Fête des morts (Pchum Ben) du 15 au 30 septembre ;</li>
@@ -146,256 +142,473 @@
                     </ul>
                 </div>
             </div>
+
             <div class="row">
                 <div class="col-md-12 h3">Hébergement</div>
             </div>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row Hebergement">
-                        <div class="col-md-4 Hebergement2">
-                            <div class="pince">
-                                <img src="Photos_Cambodge/Epingle.png" alt="pince" style="width:40%">
-                            </div>
-                            <figure>
-                                <img src="Photos_Cambodge/guest_house.jpg" alt="gest_house" style="width:100%">
-                                    <figcaption>GuestHouse</figcaption>
-                            </figure>
-                            <p> Les guest-house correspondaient autrefois à des chambres d'hôtes, le terme de guest house s'est développé avec
-                                l'arrivée des touristes occidentaux. Aujourd'hui, on appelle guest-houses tout type d'hôtels destinés aux touristes
-                                étrangers (chaine d'hôtels, petits hôtels familiaux ...).<br>
-                                Prix: A partir de 6€ la nuit.
-                            </p>
-                        </div>
-                        <div class="col-md-4 Hebergement2">
-                            <div class="pince">
-                                <img src="Photos_Cambodge/Epingle.png" alt="pince" style="width:40%">
-                            </div>
-                            <figure>
-                                <img src="Photos_Cambodge/auberge_de_jeunesse.jpg" alt="auberge" style="width:100%">
-                                <figcaption>Auberges de Jeunesse</figcaption>
-                            </figure>
-                            <p>Si vous ne savez pas ce qu'est une auberge de jeunesse, retenez juste que ce type d'hébergement 
-                                est un lieux qui permet de dormir en chambre privées ou en dortoirs.<br>
-                                Prix: A partir de 2.50€ (moyenne) la nuit
-                            </p>
-                        </div>
-                        <div class="col-md-4 Hebergement2">
-                            <div class="pince">
-                                <img src="Photos_Cambodge/Epingle.png" alt="pince" style="width:40%">
-                            </div>
-                            <figure>
-                                <img src="Photos_Cambodge/habitant.jpg" alt="habitant" style="width:100%">
-                                <figcaption>Chez l'habitant</figcaption>
-                            </figure>
-                            <p>La location d'appartement ou de maison, vous permet de profiter d'un logement bien équipé afin de vous sentir comme chez vous.<Br>
-                                Prix: 8 à 500€
-                            </p>
+
+                        
+<!--Ecran classique avec 3 éléments par 3 affichés dans le carousel-->            
+            <div class="ecran1">          
+                <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">               
+                            <div class="carousel-item active">
+                                    <div class="row Hebergement">
+                                        <div class="col-md-4 Hebergement2">
+                                            <figure>
+                                                <div class="pince pince1">
+                                                    <img class="img-fluid" src="Photos_Cambodge/Epingle.png" alt="pince">
+                                                </div>
+                                            <img src="Photos_Cambodge/guest_house.png" alt="gest_house" style="width:100%">
+                                            <figcaption>GuestHouse</figcaption>
+                                            </figure>
+                                            <p> Les guest-house correspondaient autrefois à des chambres d'hôtes, le terme de guest house s'est développé avec
+                                                l'arrivée des touristes occidentaux. Aujourd'hui, on appelle guest-houses tout type d'hôtels destinés aux touristes
+                                                étrangers (chaine d'hôtels, petits hôtels familiaux ...).<br>
+                                                <b>Prix: A partir de 6€ la nuit.</b>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-4 Hebergement2">
+                                            <figure>
+                                                <div class="pince pince2">
+                                                    <img class="img-fluid"  src="Photos_Cambodge/Epingle.png" alt="pince">
+                                                </div>
+                                                <img src="Photos_Cambodge/auberge_de_jeunesse.png" alt="auberge" style="width:100%">
+                                                <figcaption>Auberges de Jeunesse</figcaption>
+                                            </figure>
+                                            <p>Si vous ne savez pas ce qu'est une auberge de jeunesse, retenez juste que ce type d'hébergement 
+                                                est un lieux qui permet de dormir en chambre privées ou en dortoirs.<br>
+                                                <b>Prix: A partir de 2.50€ (moyenne) la nuit</b>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-4 Hebergement2">
+                                            <figure>
+                                                <div class="pince pince3">
+                                                    <img class="img-fluid" src="Photos_Cambodge/Epingle.png" alt="pince">
+                                                </div>
+                                                <img src="Photos_Cambodge/habitant.jpg" alt="habitant" style="width:100%">
+                                                <figcaption>Chez l'habitant</figcaption>
+                                            </figure>
+                                            <p>La location d'appartement ou de maison, vous permet de profiter d'un logement bien équipé afin de vous sentir comme chez vous.<Br>
+                                                <b>Prix: 8 à 500€</b>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class ="row Hebergement">
+                                        <div class="col-md-4 Hebergement2">
+                                            <figure>
+                                                <div class="pince pince4">
+                                                    <img class="img-fluid"src="Photos_Cambodge/Epingle.png" alt="pince">
+                                                </div>
+                                                <img src="Photos_Cambodge/couchsurfing.png" alt="couchsurfing" style="width:100%">
+                                                <figcaption>Couchsurfing</figcaption>
+                                            </figure>
+                                            <p> Le couchsurfing est une pratique d'hébergement de particuliers à particuliers dont le but est d'être hébergé chez quelqu'un ou d'héberger une ou plusieurs personnes. Vous pouvez très bien héberger une personne pour une ou plusieurs jours sans que celle-ci ne vous héberge en retour.<br>
+                                                <b>Prix: Gratuit</b>
+                                            </p>
+                                        </div>   
+                                        <div class="col-md-4 Hebergement2">
+                                            <figure>
+                                                <div class="pince pince5">
+                                                    <img class="img-fluid"src="Photos_Cambodge/Epingle.png" alt="pince">
+                                                </div>
+                                                <img src="Photos_Cambodge/wwoofing.png" alt="wwoofing" style="width:100%">
+                                                <figcaption>Wwoofing</figcaption>
+                                            </figure>
+                                            <p>Le Wwoofing est appelé "World wide opportunities on organic farms" offres d'emplois mondiales dans les fermes bio. Il s'agit d'un concept simple basé sur l'échange. L'hôte vous acceuille, vous nourrit et vous loge contre du travail dans sa ferme. En échange, vous donnez un peu de votre temps pour l'assister en jardinage, donner des cours de langues aux enfats etc.<br>
+                                                <b>Prix: Gratuit (hébergement)</b>
+                                            </p>
+                                        </div> 
+                                        <div class="col-md-4 Hebergement2">
+                                            <figure>
+                                                <div class="pince pince6">
+                                                    <img class="img-fluid" src="Photos_Cambodge/Epingle.png" alt="pince">
+                                                </div>
+                                                <img src="Photos_Cambodge/bungalows.jpg" alt="bungalows" style="width:100%">
+                                                <figcaption>Bungalows</figcaption>
+                                            </figure>
+                                            <p>Qui n'a jamais rêvé de dormir dans un bungalow ? Ces "chambres à part" sont en général gérées par des hôtels, vous en trouverez plus particulièrement dans le Sud du Cambodge pour des vacances exotiques.<br>
+                                                <b>Prix: A partir de 10€ la nuit.</b>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                        <a class="carousel-control-prev" href="#myCarousel1" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarousel1" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class ="row Hebergement">
-                        <div class="col-md-4 Hebergement2">
-                            <div class="pince">
-                                <img src="Photos_Cambodge/Epingle.png" alt="pince" style="width:40%">
-                            </div>
-                            <figure>
-                                <img src="Photos_Cambodge/couchsurfing.jpeg" alt="couchsurfing" style="width:100%">
-                                <figcaption>Couchsurfing</figcaption>
-                            </figure>
-                            <p> Le couchsurfing est une pratique d'hébergement de particuliers à particuliers dont le but est d'être hébergé chez quelqu'un ou d'héberger une ou plusieurs personnes. Vous pouvez très bien héberger une personne pour une ou plusieurs jours sans que celle-ci ne vous héberge en retour.<br>
-                                Prix: Gratuit
-                            </p>
-                        </div>   
-                        <div class="col-md-4 Hebergement2">
-                            <div class="pince">
-                                <img src="Photos_Cambodge/Epingle.png" alt="pince" style="width:40%">
-                            </div>
-                            <figure>
-                                <img src="Photos_Cambodge/wwoofing.JPG" alt="wwoofing" style="width:100%">
-                                <figcaption>Wwoofing</figcaption>
-                            </figure>
-                            <p>Le Wwoofing est appelé "World wide opportunities on organic farms" offres d'emplois mondiales dans les fermes bio. Il s'agit d'un concept simple basé sur l'échange. L'hôte vous acceuille, vous nourrit et vous loge contre du travail dans sa ferme. En échange, vous donnez un peu de votre temps pour l'assister en jardinage, donner des cours de langues aux enfats etc.<br>
-                                Prix: Gratuit (hébergement)
-                            </p>
-                        </div> 
-                        <div class="col-md-4 Hebergement2">
-                            <div class="pince">
-                                <img src="Photos_Cambodge/Epingle.png" alt="pince" style="width:40%">
-                            </div>
-                            <figure>
-                                <img src="Photos_Cambodge/bungalows.jpg" alt="bungalows" style="width:100%">
-                                <figcaption>Bungalows</figcaption>
-                            </figure>
-                            <p>Qui n'a jamais rêvé de dormir dans un bungalow ? Ces "chambres à part" sont en général gérées par des hôtels, vous en trouverez plus particulièrement dans le Sud du Cambodge pour des vacances exotiques.</p>
+
+<!--Petit écran avec 1 élément par 1 affiché dans le carousel-->
+                <div class="ecran2">
+                    <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row Hebergement">
+                                        <div class="col-sm-12 Hebergement2">
+                                            <figure>
+                                                <img src="Photos_Cambodge/guest_house.png" alt="gest_house" style="width:100%">
+                                                    <figcaption>GuestHouse</figcaption>
+                                            </figure>
+                                            <p> Les guest-house correspondaient autrefois à des chambres d'hôtes, le terme de guest house s'est développé avec
+                                                l'arrivée des touristes occidentaux. Aujourd'hui, on appelle guest-houses tout type d'hôtels destinés aux touristes
+                                                étrangers (chaine d'hôtels, petits hôtels familiaux ...).<br>
+                                                <b>Prix: A partir de 6€ la nuit.</b>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item"> 
+                                    <div class="row Hebergement">
+                                        <div class="col-sm-12 Hebergement2">
+                                            <figure>
+                                                <img src="Photos_Cambodge/auberge_de_jeunesse.png" alt="auberge" style="width:100%">
+                                                <figcaption>Auberges de Jeunesse</figcaption>
+                                            </figure>
+                                            <p>Si vous ne savez pas ce qu'est une auberge de jeunesse, retenez juste que ce type d'hébergement 
+                                                est un lieux qui permet de dormir en chambre privées ou en dortoirs.<br>
+                                                <b>Prix: A partir de 2.50€ (moyenne) la nuit</b>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item"> 
+                                    <div class="row Hebergement">
+                                        <div class="col-sm-12 Hebergement2">
+                                            <figure>
+                                                <img src="Photos_Cambodge/habitant.jpg" alt="habitant" style="width:100%">
+                                                <figcaption>Chez l'habitant</figcaption>
+                                            </figure>
+                                            <p>La location d'appartement ou de maison, vous permet de profiter d'un logement bien équipé afin de vous sentir comme chez vous.<Br>
+                                                <b>Prix: 8 à 500€</b>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class ="row Hebergement">
+                                        <div class="col-sm-12 Hebergement2">
+                                            <figure>
+                                                <img src="Photos_Cambodge/couchsurfing.png" alt="couchsurfing" style="width:100%">
+                                                <figcaption>Couchsurfing</figcaption>
+                                            </figure>
+                                            <p> Le couchsurfing est une pratique d'hébergement de particuliers à particuliers dont le but est d'être hébergé chez quelqu'un ou d'héberger une ou plusieurs personnes. Vous pouvez très bien héberger une personne pour une ou plusieurs jours sans que celle-ci ne vous héberge en retour.<br>
+                                                <b>Prix: Gratuit</b>
+                                            </p>
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="carousel-item">   
+                                    <div class="row Hebergement">
+                                        <div class="col-sm-12 Hebergement2">
+                                            <figure>
+                                                <img src="Photos_Cambodge/wwoofing.png" alt="wwoofing" style="width:100%">
+                                                <figcaption>Wwoofing</figcaption>
+                                            </figure>
+                                            <p>Le Wwoofing est appelé "World wide opportunities on organic farms" offres d'emplois mondiales dans les fermes bio. Il s'agit d'un concept simple basé sur l'échange. L'hôte vous acceuille, vous nourrit et vous loge contre du travail dans sa ferme. En échange, vous donnez un peu de votre temps pour l'assister en jardinage, donner des cours de langues aux enfats etc.<br>
+                                                <b>Prix: Gratuit (hébergement)</b>
+                                            </p>
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="carousel-item"> 
+                                    <div class="row Hebergement">
+                                        <div class="col-sm-12 Hebergement2">
+                                            <figure>
+                                                <img src="Photos_Cambodge/bungalows.jpg" alt="bungalows" style="width:100%">
+                                                <figcaption>Bungalows</figcaption>
+                                            </figure>
+                                            <p>Qui n'a jamais rêvé de dormir dans un bungalow ? Ces "chambres à part" sont en général gérées par des hôtels, vous en trouverez plus particulièrement dans le Sud du Cambodge pour des vacances exotiques.<br>
+                                                <b>Prix: A partir de 10€ la nuit.</b>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                        <a class="carousel-control-prev" href="#myCarousel2" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarousel2" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#myCarousel" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </a>
-        </div>
-
-        
-        
 
 
-        <div class="row">
-            <div class="col-md-12 h3">Cuisine Locale</div>
-        </div>
-        <div class ="row">
-            <div class="col-md-3 Plat">
-                <figure class= "rotation1">
-                    <img src="Photos_Cambodge/salade.jpg" alt="plat" style="width:100%"/>
-                    <figcaption>Salade de papaye</figcaption>
-                </figure>
-            </div>
-            <div class="col-md-3 Plat">
-                <figure  class= "rotation2">
-                    <img src="Photos_Cambodge/soupe.jpg" alt="plat" style="width:100%"/>
-                    <figcaption>Soupe de vermicelles (Phô)</figcaption>
-                </figure>
-            </div>
-            <div class="col-md-3 Plat">
-                <figure class= "rotation1">
-                    <img src="Photos_Cambodge/nouille.jpg" alt="plat" style="width:100%"/>
-                    <figcaption>Nouilles sautées</figcaption>
-                </figure>
-            </div>
-            <div class="col-md-3 Plat">
-                <figure  class= "rotation2">
-                    <img src="Photos_Cambodge/amok de poisson.jpg" alt="plat" style="width:100%"/>
-                    <figcaption>Poisson au lait de coco</figcaption>
-                </figure>
-            </div>
-        </div>
-
-
-
-
-
-
-
-
-
-
-        
-
-            <div class="row">
-                <div class="col-md-12 h3">Les Incontournables</div>
-            </div>
-            <div id="myCarousel2" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="row Lieu">
-                            <div class="col-md-4 Lieu2">
-                                <div class="pince">
-                                <img src="Photos_Cambodge/Epingle.png" alt="Attache" style="width:40%"/>
-                                </div>
-                                <figure>
-                                    <img src="Photos_Cambodge/Angkor.jpg" alt="Ankor wat" style="width:100%"/>
-                                    <figcaption>Les Temples d'Angkor</figcaption>
-                                </figure>
-                                <p>Angkor Wat se situe dans la ville de Siem Riep. C'est le plus grand, le plus connu, le plus majestueux des temples du pays. Une armée de 300 000 ouvriers et 6 000 éléphants ont participé à sa construction, durant 37 ans. Le must pour les plus matinaux est de profiter de l'aurore qui surplombe le temple principal. </p>
-                            </div>
-                            <div class="col-md-4 Lieu2">
-                                <div class="pince">
-                                <img src="Photos_Cambodge/Epingle.png" alt="Attache" style="width:40%"/>
-                                </div>
-                                <figure>
-                                    <img src="Photos_Cambodge/Palais.jpg" alt="Palais Phom-penh" style="width:100%"/>
-                                    <figcaption>Le Palais Royal</figcaption>
-                                </figure>
-                                <p>Le Palais Royal de Phnom Penh est l'attraction touriste centrale de la ville. Malheureusement certaines zones sont fermées, car la famille royale cambodgienne vit dans le palais (rassurez-vous, il s'agit d'une petite partie). Le complexe se compose de 9 bâtiments d'une superficie de plus de 6 hectares. Les bâtiments plus remarquables sont la salle du trône, le Pavillon de Napoléon III, Pavilion Phochani, Pavilion Chanchhaya et bien sûr la Pagode argentée.</p>
-                            </div>
-                            <div class="col-md-4 Lieu2">
-                                <div class="pince">
-                                <img src="Photos_Cambodge/Epingle.png" alt="Attache" style="width:40%"/>
-                                </div>
-                                <figure>
-                                    <img src="Photos_Cambodge/Ile.jpg" alt="Koh Rong" style="width:100%"/>
-                                    <figcaption>Ile de Koh Rong</figcaption>
-                                </figure>
-                                <p>L’ile de Koh Rong est l’une des plus belles îles du Cambodge, si ce n’est la plus belle. Une baie de sable blanc qui s’étend sur plusieurs kilomètres. Au centre, une jungle, des cocotiers, des chutes d’eau et un lac.</p>
-                            </div>
-                        </div>
+                <div class="row">
+                    <div class="col-md-12 h3">Cuisine Locale</div>
+                </div>
+                <div class ="row">
+                    <div class="col-md-3 Plat">
+                        <figure class= "rotation1">
+                            <img src="Photos_Cambodge/salade.jpg" alt="plat" style="width:100%"/>
+                            <figcaption>Salade de papaye</figcaption>
+                        </figure>
                     </div>
-                    <div class="carousel-item">
-                        <div class="row Lieu">
-                            <div class="col-md-4 Lieu2">
-                                <div class="pince">
-                                <img src="Photos_Cambodge/Epingle.png" alt="Attache" style="width:40%"/>
-                                </div>
-                                <figure>
-                                    <img src="Photos_Cambodge/Marchés.jpg" alt="Marchés" style="width:100%"/>
-                                    <figcaption>Les Marchés aux Puces</figcaption>
-                                </figure>
-                                <p>C'est le point de rencontre entre les producteurs et artisants locaux ou les simples revendeurs. Véritable caverne d'Alibaba, on y trouve autant de produits alimentaires que des statuts, sculptures ou encore du textile. Le plus : les prix sont négociables. Il existe aussi des Night Markets avec une ambiance plus festive !</p>
-                            </div>
-                            <div class="col-md-4 Lieu2">
-                                <div class="pince">
-                                <img src="Photos_Cambodge/Epingle.png" alt="Attache" style="width:40%"/>
-                                </div>
-                                <figure>
-                                    <img src="Photos_Cambodge/Mékong.jpg" alt="Mékong" style="width:100%"/>
-                                    <figcaption>Le Fleuve du Mékong</figcaption>
-                                </figure>
-                                <p>Prenant sa source dans les neiges du Tibet oriental, le Mékong, dixième fleuve le plus long du monde, traverse six pays (Chine, Birmanie, Thaïlande, Laos, Cambodge, Vietnam) pour se jeter dans la mer de Chine. On recommande les balades le long du fleuve à vélo, à pied ou en barque.</p>
-                            </div>
-                            <div class="col-md-4 Lieu2">
-                                <div class="pince">
-                                <img src="Photos_Cambodge/Epingle.png" alt="Attache" style="width:40%"/>
-                                </div>
-                                <figure>
-                                    <img src="Photos_Cambodge/Eléphant.jpg" alt="Eléphant" style="width:100%"/>
-                                    <figcaption>Balade à Dos d'Eléphant</figcaption>
-                                </figure>
-                                <p>Avez-vous vu le livre de la jungle ? Qui ne s'est pas dit un jour : "Et si Mowgli, c'était moi ?". <b>On met quand même un warning sur la maltraitance des animaux car c'est souvent le cas pour ce genre d'activité au profit de nous les touristes.</b></p>
-                                <br/>
-                                <br/>
-                            </div>
-                        </div>
+                    <div class="col-md-3 Plat">
+                        <figure  class= "rotation2">
+                            <img src="Photos_Cambodge/soupe.jpg" alt="plat" style="width:100%"/>
+                            <figcaption>Soupe de vermicelles (Phô)</figcaption>
+                        </figure>
                     </div>
+                    <div class="col-md-3 Plat">
+                        <figure class= "rotation1">
+                            <img src="Photos_Cambodge/nouille.jpg" alt="plat" style="width:100%"/>
+                            <figcaption>Nouilles sautées</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-3 Plat">
+                        <figure  class= "rotation2">
+                            <img src="Photos_Cambodge/amok-de-poisson.jpg" alt="plat" style="width:100%"/>
+                            <figcaption>Poisson au lait de coco</figcaption>
+                        </figure>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col-md-12 h3">Les Incontournables</div>
+                </div>
+
+<!--Ecran classique avec 3 éléments par 3 affichés dans le carousel-->                  
+                <div class="ecran1">
+                    <div id="myCarousel3" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row Lieu">
+                                    <div class="col-md-4 Lieu2">
+                                        <figure>
+                                            <div class="pince pince1">
+                                                <img class="img-fluid" src="Photos_Cambodge/Epingle.png" alt="Attache"/>
+                                            </div>
+                                            <img src="Photos_Cambodge/Angkor.jpg" alt="Ankor wat" style="width:100%"/>
+                                            <figcaption>Les Temples d'Angkor</figcaption>
+                                        </figure>
+                                        <p>Angkor Wat se situe dans la ville de Siem Riep. C'est le plus grand, le plus connu, le plus majestueux des temples du pays. Une armée de 300 000 ouvriers et 6 000 éléphants ont participé à sa construction, durant 37 ans. Le must pour les plus matinaux est de profiter de l'aurore qui surplombe le temple principal. </p>
+                                    </div>
+                                    <div class="col-md-4 Lieu2">
+                                        <figure>
+                                            <div class="pince pince2">
+                                                <img class="img-fluid" src="Photos_Cambodge/Epingle.png" alt="Attache"/>
+                                            </div>
+                                            <img src="Photos_Cambodge/Palais.jpg" alt="Palais Phom-penh" style="width:100%"/>
+                                            <figcaption>Le Palais Royal</figcaption>
+                                        </figure>
+                                        <p>Le Palais Royal de Phnom Penh est l'attraction touriste centrale de la ville. Malheureusement certaines zones sont fermées, car la famille royale cambodgienne vit dans le palais (rassurez-vous, il s'agit d'une petite partie). Le complexe se compose de 9 bâtiments d'une superficie de plus de 6 hectares. Les bâtiments plus remarquables sont la salle du trône, le Pavillon de Napoléon III, Pavilion Phochani, Pavilion Chanchhaya et bien sûr la Pagode argentée.</p>
+                                    </div>
+                                    <div class="col-md-4 Lieu2">
+                                        <figure>
+                                            <div class="pince pince3">
+                                                <img class="img-fluid" src="Photos_Cambodge/Epingle.png" alt="Attache"/>
+                                            </div>
+                                            <img src="Photos_Cambodge/Ile.jpg" alt="Koh Rong" style="width:100%"/>
+                                            <figcaption>Ile de Koh Rong</figcaption>
+                                        </figure>
+                                        <p>L’ile de Koh Rong est l’une des plus belles îles du Cambodge, si ce n’est la plus belle. Une baie de sable blanc qui s’étend sur plusieurs kilomètres. Au centre, une jungle, des cocotiers, des chutes d’eau et un lac.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row Lieu">
+                                    <div class="col-md-4 Lieu2">
+                                        <figure>
+                                            <div class="pince pince4">
+                                                <img class="img-fluid" src="Photos_Cambodge/Epingle.png" alt="Attache"/>
+                                            </div>
+                                            <img src="Photos_Cambodge/Marchés.jpg" alt="Marchés" style="width:100%"/>
+                                            <figcaption>Les Marchés aux Puces</figcaption>
+                                        </figure>
+                                        <p>C'est le point de rencontre entre les producteurs et artisants locaux ou les simples revendeurs. Véritable caverne d'Alibaba, on y trouve autant de produits alimentaires que des statuts, sculptures ou encore du textile. Le plus : les prix sont négociables. Il existe aussi des Night Markets avec une ambiance plus festive !</p>
+                                    </div>
+                                    <div class="col-md-4 Lieu2">
+                                        <figure>
+                                            <div class="pince pince5">
+                                                <img class="img-fluid" src="Photos_Cambodge/Epingle.png" alt="Attache"/>
+                                            </div>
+                                                <img src="Photos_Cambodge/Mékong.jpg" alt="Mékong" style="width:100%"/>
+                                                <figcaption>Le Fleuve du Mékong</figcaption>
+                                            </figure>
+                                        <p>Prenant sa source dans les neiges du Tibet oriental, le Mékong, dixième fleuve le plus long du monde, traverse six pays (Chine, Birmanie, Thaïlande, Laos, Cambodge, Vietnam) pour se jeter dans la mer de Chine. On recommande les balades le long du fleuve à vélo, à pied ou en barque.</p>
+                                    </div>
+                                    <div class="col-md-4 Lieu2">
+                                        <figure>
+                                            <div class="pince pince6">
+                                                <img class="img-fluid" src="Photos_Cambodge/Epingle.png" alt="Attache"/>
+                                            </div>                           
+                                            <img src="Photos_Cambodge/Eléphant.jpg" alt="Eléphant" style="width:100%"/>
+                                            <figcaption>Balade à Dos d'Eléphant</figcaption>
+                                        </figure>
+                                        <p>Avez-vous vu le livre de la jungle ? Qui ne s'est pas dit un jour : "Et si Mowgli, c'était moi ?". On met quand même un warning sur la maltraitance des animaux car c'est souvent le cas pour ce genre d'activité au profit de nous les touristes.</p>
+                                        <br/>
+                                        <br/>
+                                    </div>
+                                </div>
+                            </div>
                 </div>
                  <!-- Left and right controls -->
-                <a class="carousel-control-prev" href="#myCarousel2" data-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a class="carousel-control-next" href="#myCarousel2" data-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </a>
-            </div>  
-            
-            <div class="scrollUp">
-                <a href="#top"><img src="https://zupimages.net/up/18/10/j3ay.png"/></a>
+                        <a class="carousel-control-prev" href="#myCarousel3" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarousel3" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div> 
+                </div> 
+
+<!--Petit écran avec 1 élément par 1 affiché dans le carousel-->
+                <div class="ecran2">
+                    <div id="myCarousel4" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row Lieu">
+                                    <div class="col-sm-12 Lieu2">
+                                        <figure>
+                                            <img src="Photos_Cambodge/Angkor.jpg" alt="Ankor wat" style="width:100%"/>
+                                            <figcaption>Les Temples d'Angkor</figcaption>
+                                        </figure>
+                                        <p>Angkor Wat se situe dans la ville de Siem Riep. C'est le plus grand, le plus connu, le plus majestueux des temples du pays. Une armée de 300 000 ouvriers et 6 000 éléphants ont participé à sa construction, durant 37 ans. Le must pour les plus matinaux est de profiter de l'aurore qui surplombe le temple principal. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row Lieu">
+                                    <div class="col-sm-12 Lieu2">
+                                        <figure>
+                                            
+                                            <img src="Photos_Cambodge/Palais.jpg" alt="Palais Phom-penh" style="width:100%"/>
+                                            <figcaption>Le Palais Royal</figcaption>
+                                        </figure>
+                                        <p>Le Palais Royal de Phnom Penh est l'attraction touriste centrale de la ville. Malheureusement certaines zones sont fermées, car la famille royale cambodgienne vit dans le palais (rassurez-vous, il s'agit d'une petite partie). Le complexe se compose de 9 bâtiments d'une superficie de plus de 6 hectares. Les bâtiments plus remarquables sont la salle du trône, le Pavillon de Napoléon III, Pavilion Phochani, Pavilion Chanchhaya et bien sûr la Pagode argentée.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row Lieu">
+                                    <div class="col-sm-12 Lieu2">
+                                        <figure>
+                                            <img src="Photos_Cambodge/Ile.jpg" alt="Koh Rong" style="width:100%"/>
+                                            <figcaption>Ile de Koh Rong</figcaption>
+                                        </figure>
+                                        <p>L’ile de Koh Rong est l’une des plus belles îles du Cambodge, si ce n’est la plus belle. Une baie de sable blanc qui s’étend sur plusieurs kilomètres. Au centre, une jungle, des cocotiers, des chutes d’eau et un lac.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row Lieu">
+                                    <div class="col-sm-12 Lieu2">
+                                        <figure>
+                                            <img src="Photos_Cambodge/Marchés.jpg" alt="Marchés" style="width:100%"/>
+                                            <figcaption>Les Marchés aux Puces</figcaption>
+                                        </figure>
+                                        <p>C'est le point de rencontre entre les producteurs et artisants locaux ou les simples revendeurs. Véritable caverne d'Alibaba, on y trouve autant de produits alimentaires que des statuts, sculptures ou encore du textile. Le plus : les prix sont négociables. Il existe aussi des Night Markets avec une ambiance plus festive !</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row Lieu">
+                                    <div class="col-sm-12 Lieu2">
+                                        <figure>
+                                            <img src="Photos_Cambodge/Mékong.jpg" alt="Mékong" style="width:100%"/>
+                                            <figcaption>Le Fleuve du Mékong</figcaption>
+                                        </figure>
+                                        <p>Prenant sa source dans les neiges du Tibet oriental, le Mékong, dixième fleuve le plus long du monde, traverse six pays (Chine, Birmanie, Thaïlande, Laos, Cambodge, Vietnam) pour se jeter dans la mer de Chine. On recommande les balades le long du fleuve à vélo, à pied ou en barque.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row Lieu">
+                                    <div class="col-sm-12 Lieu2">
+                                        <figure>
+                                            <img src="Photos_Cambodge/Eléphant.jpg" alt="Eléphant" style="width:100%"/>
+                                            <figcaption>Balade à Dos d'Eléphant</figcaption>
+                                        </figure>
+                                        <p>Avez-vous vu le livre de la jungle ? Qui ne s'est pas dit un jour : "Et si Mowgli, c'était moi ?". On met quand même un warning sur la maltraitance des animaux car c'est souvent le cas pour ce genre d'activité au profit de nous les touristes.</p>
+                                        <br/>
+                                        <br/>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#myCarousel4" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#myCarousel4" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                            
+                        </div>
+                    </div> 
+                </div> 
+                <div class="scrollUp">
+                    <a href="#top"><img src="https://zupimages.net/up/18/10/j3ay.png"/></a>
+                </div> 
+            </div>                   
+        </div>
+
+        <!--footer-->
+        <footer class="paddingLeft">
+            <div class="row no-gutters">
+            <div class="mentions col-6 offset-xs-1 col-xs-5 offset-lg-1 col-lg-4 ">
+                <ul class="mentionsLeft">
+                <li>
+                    <a href="#top">Home</a>
+                </li>
+                <li>
+                    <a href="#top">Mentions légales</a>
+                </li>
+                <li>
+                    <a href="#top">Copyrights</a>
+                </li>
+                </ul>
+                <ul class="mentionsRight">
+                <li>
+                    <a href="#top">Faites un don</a>
+                </li>
+                <li>
+                    <a href="Contact.html">Contact</a>
+                </li>
+                </ul>
             </div>
-                           
-        </div>
-        <div class="container-fluid">
-                <footer>
-                <!--footer-->
-                <!--home, mentions légales, copyrights, faites un don, contact, icones facebook insta twitter-->
-                    <ul>
-                      <li><a href="#top">Home</a></li>
-                      <li><a href="#top">Mentions légales</a></li>
-                      <li><a href="#top">Copyrights</a></li>
-                      <li><a href="#top">Faites un don</a></li>
-                      <li><a href="Contact.html">Contact</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="#top"><img class="imgbtn" src="logos/fb.png"></a></li>
-                      <li><a href="#"><img class="imgbtn" src="logos/insta.png"></a></li>
-                      <li><a href="#"><img class="imgbtn" src="logos/twitter.jpeg"></a></li>
-                    </ul>
-                </footer>
-        </div>
+            <div class="reseaux col-6 offset-lg-1 col-lg-5">
+                <p>Embarquez avec nous :</p>
+                <ul>
+                <li>
+                    <a href="#top">
+                    <img class="imgbtn" src="logos/fb.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                    <img class="imgbtn" src="logos/insta.png">
+                    </a>
+                </li>
+                <br class="secret" />
+                <li>
+                    <a href="#">
+                    <img class="imgbtn" src="logos/twitter.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                    <img class="imgbtn" src="logos/twitch.png">
+                    </a>
+                </li>
+                </ul>
+            </div>
+            </div>
+            <div class="row no-gutters">
+            <div class="col-12">
+                <p class="madeBy">Made with major power by The Wild Eyes Team</p>
+            </div>
+            </div>
+        </footer>
+        <!--fin footer-->
     </body>
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
