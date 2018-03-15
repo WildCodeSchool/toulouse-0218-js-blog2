@@ -74,6 +74,7 @@ li {
 .Hebergement2 .pince {
     position: absolute;
     width: 40%;
+    display: inline-block;
     
 }
 
@@ -160,6 +161,7 @@ li {
 .Lieu2 .pince {
     position: absolute;
     width: 40%;
+    display: inline-block;
 }
 .Lieu2 .pince1{
     margin-left: 4vw;
@@ -221,6 +223,71 @@ li {
 
 .ecran2 {
     display: none;
+}
+
+@media screen and (max-width:1199px){
+    .Hebergement2 .pince1{
+        margin-left: 4vw;
+        top: -32.5%;
+       
+    }
+    
+    .Hebergement2 .pince2{
+        margin-left: 9vw;
+        top: -33.5%;
+    
+    }
+    
+    .Hebergement2 .pince3{
+        margin-left: 8vw;
+        top: -30%;
+    }
+    
+    .Hebergement2 .pince4{
+        margin-left: 5vw;
+        top: -32%;
+    }
+    
+    .Hebergement2 .pince5{
+        margin-left: 11vw;
+        top: -30%;
+    }
+    
+    .Hebergement2 .pince6{
+        margin-left: 11vw;
+        top: -32%;
+    }
+
+    .Lieu2 .pince1{
+        margin-left: 4vw;
+        top: -32%;
+    }
+    
+    .Lieu2 .pince2{
+        margin-left: 9vw;
+        top: -29%;
+    }   
+    
+    .Lieu2 .pince3{
+        margin-left: 8vw;
+        top: -31%;
+    }
+    
+    .Lieu2 .pince4{
+        margin-left: 5vw;
+        top: -32%;
+    }
+    
+    .Lieu2 .pince5{
+        margin-left: 8vw;
+        top: -33%;
+    }
+    
+    .Lieu2 .pince6{
+        margin-left: 11vw;
+        top: -27.5%;
+    }
+
 }
 
 @media screen and (max-width:768px){
