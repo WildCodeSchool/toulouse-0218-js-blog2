@@ -167,7 +167,7 @@ h1, .menu{
 }
 
 .post {
-    height:450px;
+    height:455px;
     min-width: 285px;
     background-size: cover; 
     background-position: center;
@@ -179,7 +179,7 @@ h1, .menu{
 .texte {
     background-color: rgba(255,255,255,0.8);
     width: 100%;
-    height: 440px;
+    height: 445px;
     padding: 20px;
     text-align: justify;
     border-radius: 10px;
@@ -304,6 +304,10 @@ footer ul {
 footer .mentions li {
     margin-bottom: 15px;
     text-align: left;
+}
+
+footer .reseaux p {
+    text-align: center;
 }
 
 footer .reseaux li {
