@@ -66,46 +66,47 @@ li {
 }
 
 .Hebergement {
-    margin-top: 10%;
-    margin-right: 1%;
-    height : 560px;
-    width: 100%;
+    margin: 10% 1% 0 1%;
+    height: 560px;
+
 }
 
-.Hebergement2 > .pince {
-    display: flex;
-    flex-direction: column;
+.Hebergement2 .pince {
     position: absolute;
-    top: -15.5%;
-    z-index: 5;
     width: 40%;
-    height: 25%;
+    
 }
 
-.Hebergement2 > .pince1{
+.Hebergement2 .pince1{
     margin-left: 4vw;
-
+    top: -32.5%;
+   
 }
 
-.Hebergement2 > .pince2{
+.Hebergement2 .pince2{
     margin-left: 9vw;
+    top: -33.5%;
 
 }
 
-.Hebergement2 > .pince3{
+.Hebergement2 .pince3{
     margin-left: 8vw;
+    top: -30%;
 }
 
-.Hebergement2 > .pince4{
+.Hebergement2 .pince4{
     margin-left: 5vw;
+    top: -32%;
 }
 
-.Hebergement2 > .pince5{
-    margin-left: 8vw;
-}
-
-.Hebergement2 > .pince6{
+.Hebergement2 .pince5{
     margin-left: 11vw;
+    top: -30%;
+}
+
+.Hebergement2 .pince6{
+    margin-left: 11vw;
+    top: -32%;
 }
 
 .Hebergement2 > figure {
@@ -156,39 +157,38 @@ li {
     height: 650px;
 }
 
-.Lieu2 > .pince {
-    display: flex;
-    flex-direction: column;
+.Lieu2 .pince {
     position: absolute;
-    top: -15.5%;
-    z-index: 5;
     width: 40%;
-    height: 25%;
 }
-
-.Lieu2 > .pince1{
+.Lieu2 .pince1{
     margin-left: 4vw;
-
+    top: -32.5%;
 }
 
-.Lieu2 > .pince2{
+.Lieu2 .pince2{
     margin-left: 9vw;
-}
+    top: -30.5%;
+}   
 
-.Lieu2 > .pince3{
+.Lieu2 .pince3{
     margin-left: 8vw;
+    top: -31.5%;
 }
 
-.Lieu2 > .pince4{
+.Lieu2 .pince4{
     margin-left: 5vw;
+    top: -32.5%;
 }
 
-.Lieu2 > .pince5{
+.Lieu2 .pince5{
     margin-left: 8vw;
+    top: -33.5%;
 }
 
-.Lieu2 > .pince6{
+.Lieu2 .pince6{
     margin-left: 11vw;
+    top: -32.5%;
 }
 
 .Lieu2 > figure{
