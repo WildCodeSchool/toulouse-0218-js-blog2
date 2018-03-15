@@ -306,6 +306,10 @@ footer .mentions li {
     text-align: left;
 }
 
+footer .reseaux p {
+    text-align: center;
+}
+
 footer .reseaux li {
     display: inline;
 }
