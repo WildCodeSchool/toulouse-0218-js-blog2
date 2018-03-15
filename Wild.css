@@ -1,23 +1,40 @@
 /*Mise en page header*/
 
+.spacerUp{
+    padding-top:calc(10px + 1vw);
+}
+.titleBanner{
+    position:static;
+}
 h1, .menu{
     text-align:center;
 }
 .title{
     min-width:200px;
-    font-size:calc(25px + 3vw);    
+    font-size:calc(25px + 3vw);
+    margin:0;    
 }
 .logo{
     position:absolute;
-    top:calc(-30px - 4vw);
+    top:calc(calc(10px + 1vw) + calc(5px + 0.66vw));
     left:calc(50% - calc(33px + 4.5vw));
     width:calc(60px + 8vw);
 }
 .spacerDown{
     margin-bottom:0;
 }
-.spacerUp{
+.spacerDown a{
+    text-decoration:none;
+    color:#000000;
+}
+.spacerUpTriple{
     margin-top:calc(30px + 3vw);
+}
+.titleBannerFix{
+    margin-top:0;
+}
+.menu{
+    font-family:'existencelight';
 }
 .menu h3{
     font-size:2vw;
@@ -28,9 +45,10 @@ h1, .menu{
     left:0;
     width:100%;
     background-color:#ffffff;
-    color:#000000;
     margin-top:5px;
     border:1px solid #000000;
+    border-top:none;
+    border-radius:0 0 10px 10px;
     padding:5px 0;
     z-index:10;
 }
@@ -40,9 +58,10 @@ h1, .menu{
 .menu a{
     display:flex;
     text-decoration:none;
+    color:#444444;
 }
 .menu a:hover{
-    text-decoration:none;
+    color:#000000;
 }
 .menu h5{
     font-size:1.5vw;
@@ -56,11 +75,11 @@ h1, .menu{
 .afrique:hover .afriqueListe{
     visibility:visible;
 }
-.amérique .amériqueListe{
+.amerique .ameriqueListe{
     visibility:hidden;
     transition:visibility 0s linear 50ms;
 }
-.amérique:hover .amériqueListe{
+.amerique:hover .ameriqueListe{
     visibility:visible;
 }
 .asie .asieListe{
@@ -77,40 +96,144 @@ h1, .menu{
 .europe:hover .europeListe{
     visibility:visible;
 }
-.océanie .océanieListe{
+.oceanie .oceanieListe{
     visibility:hidden;
     transition:visibility 0s linear 50ms;
 }
-.océanie:hover .océanieListe{
+.oceanie:hover .oceanieListe{
     visibility:visible;
 }
-#clickMe{
+
+/*Mise en page Menu Burger*/
+
+.checkboxHack{
+    margin:0;
+}
+.burger{
     position:fixed;
-    left:-10vw;
+    top:calc(8px + calc(20px + 2vw));
+    left:20px;
+    width:calc(20px + 2.66vw);
+    visibility:hidden;
+    border-radius:5px;
+    padding:5px 5px;
+    z-index:100
+}
+.burger:hover{
+    background-color:#cccccc;
+}
+#clickMe{
+    display:none;
 }
 .menuBurger{
     position:fixed;
     top:0;
-    left:10vw;
-    width:30vw;
+    left:-320px;
     height:100vh;
-    visibility:hidden;
-    background-color:#444444;
+    background-color:#ffffff;
+    font-family:'existencelight';
+    color:#444444;
+    border-right:1px solid #000000;
+    border-radius:0 20px 20px 0;
+    z-index:90;
+    transition:transform 100ms linear;
 }
-#clickMe:checked + label > .menuBurger{
-    visibility:visible;
+#clickMe:checked ~ .menuBurger{
+    transform:translate(320px);
 }
-.burger{
-    position:absolute;
-    top:7px;
-    left:10px;
-    width:calc(20px + 2.66vw);
-    visibility:hidden;
-    padding:5px 5px;
+.menuBurger h4{
+    font-size:calc(12.5px + 1.5vw);
+    margin-bottom:0;
+    margin-top:1.5vw;
 }
-.burger:hover{
-    background-color:#888888;
+.afriqueBurger:hover{
+    color:#000000;
 }
+.ameriqueBurger:hover{
+    color:#ce0000;
+}
+.asieBurger:hover{
+    color:#e6e601;
+}
+.europeBurger:hover{
+    color:#25a025;
+}
+.oceanieBurger:hover{
+    color:#4848ff;
+}
+.separator{
+    border-top:1px solid #000000;
+    margin-bottom:5px;
+}
+.menuBurger ul{
+    display:none;
+    margin-top:10px;
+}
+.menuBurger li{
+    list-style:none;
+}
+.menuBurger a{
+    text-decoration:none;
+    color:#444444;
+}
+.menuBurger h5{
+    font-size:calc(8px + 0.96vw);
+    margin-bottom:0;
+    margin-left:calc(calc(12.5px + 1.5vw) - 5px) ;
+}
+.afriqueBurger{
+    margin-top:calc(calc(20px + 2vw) + calc(26px + calc(20px + 2.66vw)));
+}
+#clickMeAfrique, #clickMeAmerique, #clickMeAsie, #clickMeEurope, #clickMeOceanie{
+    display:none;
+}
+#clickMeAfrique:checked ~ .afriqueListeBurger{
+    display:contents;
+}
+#clickMeAfrique:checked ~ .afriqueBurger{
+    color:#000000;
+}
+.afriqueListeBurger a:hover{
+    color:#000000;
+}
+#clickMeAmerique:checked ~ .ameriqueListeBurger{
+    display:contents;
+}
+#clickMeAmerique:checked ~ .ameriqueBurger{
+    color:#ce0000;
+}
+.ameriqueListeBurger a:hover{
+    color:#ce0000;
+}
+#clickMeAsie:checked ~ .asieListeBurger{
+    display:contents;
+}
+#clickMeAsie:checked ~ .asieBurger{
+    color:#e6e601;
+}
+.asieListeBurger a:hover{
+    color:#e6e601;
+}
+#clickMeEurope:checked ~ .europeListeBurger{
+    display:contents;
+}
+#clickMeEurope:checked ~ .europeBurger{
+    color:#25a025;
+}
+.europeListeBurger a:hover{
+    color:#25a025;
+}
+#clickMeOceanie:checked ~ .oceanieListeBurger{
+    display:contents;
+}
+#clickMeOceanie:checked ~ .oceanieBurger{
+    color:#4848ff;
+}
+.oceanieListeBurger a:hover{
+    color:#4848ff;
+}
+
+/*Media Query*/
 
 @media screen and (max-width:768px){
     .banner{
@@ -121,6 +244,23 @@ h1, .menu{
     }
     .spacerDown{
         margin-bottom:calc(30px + 3vw);
+    }
+    .titleBanner{
+        position:fixed;
+        top:0;
+        left:0;
+        height:calc(calc(10px + 1vw) + calc(calc(25px + 3vw) * 1.2) + calc(30px + 3vw));
+        background-color:#ffffff;
+        z-index:20;
+    }
+    .titleBannerFix{
+        margin-top:calc(calc(10px + 1vw) + calc(calc(25px + 3vw) * 1.2) + calc(30px + 3vw));
+    }
+}
+
+@media screen and (min-width:769px){
+    .menuBurger, #clickMe:checked ~ .menuBurger{
+        visibility:hidden;
     }
 }
 
