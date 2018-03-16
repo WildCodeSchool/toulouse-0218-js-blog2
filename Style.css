@@ -26,6 +26,12 @@
 	font-style: normal;
 }
 
+/*General*/
+a
+{
+	outline-style:none;
+}
+
 /*Header - start*/
 .spacerUp
 {
@@ -69,14 +75,19 @@
 	color:#000000;
 }
 
+.titleBannerFix
+{
+	margin-top:0;
+}
+
 .spacerUpTriple
 {
 	margin-top:calc(30px + 3vw);
 }
 
-.titleBannerFix
+.straightLine
 {
-	margin-top:0;
+	border-top:2px solid #cccccc;
 }
 
 .menu
@@ -1102,4 +1113,4 @@ footer a:visited
 		text-align: left;
 	}
 }
-/*Footer - start*/
+	/*Footer - end*/
